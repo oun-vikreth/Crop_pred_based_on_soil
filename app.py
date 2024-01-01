@@ -27,7 +27,7 @@ label_encoder = LabelEncoder()
 # Assuming df_soil is the original DataFrame used for training the model
 label_encoder.fit(df_soil['DistrictName'])
 
-st.title('Soil Fertility Prediction App')
+st.title('Crops yield prediction based on soil')
 
 st.write('Adjust Soil Data for Prediction:')
 # Adjusted input sliders for soil data based on provided min and max values
