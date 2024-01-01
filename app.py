@@ -29,6 +29,8 @@ label_encoder.fit(df_soil['DistrictName'])
 
 st.title('Crops yield prediction based on soil')
 
+st.markdown("[Project source code](https://github.com/oun-vikreth/Crop_pred_based_on_soil)")
+
 st.write('Adjust Soil Data for Prediction:')
 # Adjusted input sliders for soil data based on provided min and max values
 soil_ph = st.slider('Soil pH', min_value=0.0, max_value=14.0, step=0.01)
